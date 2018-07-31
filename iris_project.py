@@ -14,7 +14,7 @@ from keras.callbacks import TensorBoard
 import seaborn as sns
 
 #Reads the data:
-dataset = pd.read_csv("C:\\Users\\mbura\\Desktop\\iris.csv")
+dataset = pd.read_csv("DATA_PATH")
 
 
 ##Gets logs of the loss and accuracy functions:
